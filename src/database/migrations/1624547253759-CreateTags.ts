@@ -25,10 +25,10 @@ export class CreateTags1624547253759 implements MigrationInterface {
                         name: "updated_at",
                         type: "timestamp",
                         default: "now()"
-                    }
-                ]
+                    },
+                ],
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
